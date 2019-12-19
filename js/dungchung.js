@@ -593,8 +593,8 @@ function addFooter() {
 
     <!-- ============== Footer ============= -->
     <div class="copy-right">
-        <p><a href="index.html">SmartPhone Store</a> - All rights reserved © 2018 - Designed by
-            <span style="color: #eee; font-weight: bold">H-group</span></p>
+        <p><a href="index.html">SmartPhone Store</a> - All rights reserved © 2019 - Designed by
+            <span style="color: #eee; font-weight: bold">TRV-group</span></p>
     </div>`);
 }
 
