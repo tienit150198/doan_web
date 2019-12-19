@@ -107,13 +107,12 @@
                             <th>MSSV</th>
                             <th>Giới tính</th>
                             <th>Lớp</th>
-                            <th>Tỉ lệ công việc</th>
                         </tr>
                         <script>
                             var thongtin = [
-                                ["Trần Minh Tiến", "1651220046", "Nam", "16CT", "%"],
-                                ["Nguyễn Văn Rô", "1651220046", "Nam", "16CT", "%"],
-                                ["Lê Thị Thúy Vi", "1651220046", "Chưa phân biệt được", "16CT", "%"],
+                                ["Trần Minh Tiến", "1651220046", "Nam", "16CT"],
+                                ["Nguyễn Văn Rô", "1651220030", "Nam", "16CT"],
+                                ["Lê Thị Thúy Vi", "1651220020", "Nữ", "16CT"],
                             ]
                             for (var i = 0; i < thongtin.length; i++) {
                                 document.write(
@@ -127,9 +126,6 @@
                                     thongtin[i][2] + `</td>
                                         <td>` +
                                     thongtin[i][3] + `</td>
-                                        <td>` +
-                                    thongtin[i][4] +
-                                    `</td>
                                     </tr>
                                 `
                                 )
